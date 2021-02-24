@@ -1,4 +1,11 @@
 sources/.Rproj.user
+sources/*.html
+sources/*.css
+sources/*_cache
+sources/*_files
+sources/libs
+render/
 .Rhistory
 .RData
 .Ruserdata
+

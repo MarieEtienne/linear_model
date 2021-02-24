@@ -4,7 +4,7 @@ subtitle: à 1 facteur
 author: Marie-Pierre Etienne
 date: '2020/09/11 (updated: `r Sys.Date()`)'
 institute: https://github.com/marieetienne
-csl: ../resources/apa-no-doi-no-issue.csl
+csl: ../courses_tools/resources/apa-no-doi-no-issue.csl
 output:
   xaringan::moon_reader:
     css: [  'metropolis',  'mpe_pres.css']
@@ -14,13 +14,13 @@ output:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
-      beforeInit: '../resources/collapseoutput.js'
+      beforeInit: '../courses_tools/resources/collapseoutput.js'
     includes:
-      after_body: '../resources/insert-logo.html'
+      after_body: '../courses_tools/resources/insert-logo.html'
 fontsize: 10pt
 params:
   child_path: ''
-  setup_path: ../resources/
+  setup_path: ../courses_tools/resources/
 ---
 
 
