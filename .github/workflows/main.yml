@@ -16,9 +16,9 @@ jobs:
         run: brew install gdal geos udunits gifski imagemagick
       - uses: r-lib/actions/setup-r@master
       - name: Install R packages
-        run: Rscript courses_tools/R/install.R
+        run: Rscript courses_tools@cbf0a98/R/install.R
       - name: Generate slides
-        run: Rscript courses_tools/R/render.R
+        run: Rscript courses_tools@cbf0a98/R/render.R
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
