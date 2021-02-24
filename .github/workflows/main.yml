@@ -8,12 +8,12 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
 
     steps:
       - uses: actions/checkout@v2
       - name: Install dependencies
-        run: brew install gdal geos udunits gifski 
+        run: brew install gdal geos udunits gifski imagemagick
       - uses: r-lib/actions/setup-r@master
       - name: Install R packages
         run: Rscript courses_tools/R/install.R
