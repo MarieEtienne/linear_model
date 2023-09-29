@@ -46,9 +46,9 @@ myBib <- ReadBib("./lm.bib", check = FALSE)
 ---
 # Introduction
 
-Le cours compporte des sessions des cours enregistrées et des TDS en visioconférence.
+Le cours alterne des sessions des cours et des exercices pratiques. Les cours sont disponibles en vidéo.
 
-Les codes utilisés dans les parties de cours enregistrées sont mis à disposition néanmoins le cours se concentre sur les concepts de modélisation et ne détaillera qu'à minima les commandes utilisées.
+Les codes utilisés dans le cours sont mis à disposition néanmoins le cours se concentre sur les concepts de modélisation, plutôt que sur les commandes R.
 
 L'ensemble des slides est disponible sur [mon compte GitHub](https://github.com/MarieEtienne/courses/tree/master/linearmodel) sous forme de fichiers `.Rmd`.
 
@@ -89,16 +89,25 @@ library(emmeans)
 ---
 # Des questions ?
 
-Les questions sont plus que bienvenues pendant les séances de TD. 
+Les questions sont plus que bienvenues. 
 
 Elles peuvent aussi être posées par [mail](mailto:marie-pierre.etienne@agrocampus-ouest.fr)
 
 
 Ce cours a une approche très similaire de celle proposée dans le livre `r Citet(myBib, "daudin2015modele")` disponible en [pdf](https://marieetienne.github.io/MesPapiers/2012_ModeleLineaireEt_Extensions.pdf).
 
---
+---
 
-### C'est parti !
+# Qui sommes nous ?
+
+## Enseignante 
+
+Marie-Pierre Etienne, Maître conférence Institut Agro Rennes Angers. 
+
+Une recherche autour des méthodes statistiques pour l'écologie (souvent marine et essentiellement  pour la faune, mais tout arrive à Kourou)
+
+## Qui êtes vous ?
+
 
 ---
 # Références
