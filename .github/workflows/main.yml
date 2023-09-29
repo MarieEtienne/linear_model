@@ -6,9 +6,11 @@ on:
   pull_request:
     branches: [ master ]
 
+
 jobs:
   build:
-    runs-on: macos-latest
+    runs-on: ubuntu-latest
+    container: mpetienne/r-courses:0.32
 
     steps:
       - name: Checkout repository and submodules
