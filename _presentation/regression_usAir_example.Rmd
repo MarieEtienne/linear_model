@@ -22,14 +22,11 @@ library(maps)
 library(rnaturalearth)
 ```
 
-<<<<<<< HEAD
-=======
 ```{r datapackage, eval = TRUE, echo = FALSE, warning = FALSE}
 ggplot <- function(...) ggplot2::ggplot(...) + scale_fill_manual(values = wesanderson::wes_palette(name = "Darjeeling1")) + scale_color_manual(values = wesanderson::wes_palette(name = "Darjeeling1")) 
 #remotes::install_github('MarieEtienne/coursesdata', force = TRUE)
 ```
 
->>>>>>> dev
 # Présentation
 Pour étudier la pollution dans des villes américaine, on a mesuré différentes variables. Les valeurs présentées sont les moyennes annuelles des années 1969 à 1971.\\
 SO2 : Dyoxide de soufre augmente les risques de pluies acides\\
